@@ -1,0 +1,18 @@
+div {
+  width: 50%;
+  background: linear-gradient(to right, rgba(33,180,226,1) 0%, rgba(183,222,237,1) 100%);
+  font-size: 40px;
+
+}
+
+div div {
+  width: 50%;
+  background: grey;
+  font-size: 2em;
+}
+
+/* pixele ustawiaja sie na "sztywno"
+  emy - dziedzicza od najblizszego zadeklarowanego rodzica
+  remy - dziedzicza od roota dokumentu (html) nie wiem czy tak to sie dokladnie nazywa
+
+*/

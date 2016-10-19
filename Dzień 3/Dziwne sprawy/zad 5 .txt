@@ -1,0 +1,4 @@
+dlaczego lista wchodzi mi w diva jak to jest element blokowy i powinien przejsc pod spod? 
+
+
+po dodaniu padding-top w img zmienia sie border radius ?

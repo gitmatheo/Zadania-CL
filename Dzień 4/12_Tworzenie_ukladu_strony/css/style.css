@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, helvetica, sans-serif;
+}
+
+header {
+  background-image: url("../images/night-sky.jpg");
+}
+
+.row {
+  margin: 5px 0;
+  overflow: hidden;
+}
+
+.bg_blue {
+  background-color: blue;
+}
+
+.bg_lblue {
+  background-color: lightblue;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1000px;
+  padding: 0;
+}
+h1 {
+  color: white;
+}
+
+section {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+header, footer {
+  width: 100%;
+  background-color: navy;
+  color: white;
+}
+
+footer {
+  height: 30px;
+}
+
+.p_box {
+  float: left;
+  width:33.3333%;
+  padding: 0px;
+  margin: 2px 0px;
+  background-color: lightblue;
+}
+
+.p_box p {
+  margin: 8px 0;
+}
+
+.p_box2 {
+  float: left;
+  width:50%;
+  padding:0;
+  margin: 2px 0px;
+  background-color: blue;
+  color: white;
+}
+.p_box2 p {
+  margin: 8px 0;
+}
+
+.p_box3 {
+  float: left;
+  width:100%;
+  padding:0;
+  margin: 2px 0px;
+  color: white;
+}
+.p_box3 p {
+  margin: 4px 0;
+}

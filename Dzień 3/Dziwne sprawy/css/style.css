@@ -1,0 +1,57 @@
+.zad1{
+  width:200px;
+  height:200px;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.zad1:nth-child(2) {
+  float:right;
+}
+
+.zad2 {
+  width:800px;
+  height:200px;
+  border: 1px solid red;
+
+}
+
+.zad3 {
+  width:800px;
+  height:400px;
+  border: 1px solid red;
+}
+
+.zad3 > .zad1 {
+  float:left;
+}
+.zad3 .zad1:nth-child(3) {
+  clear: both;
+}
+
+ul li {
+  display: block;
+  width: 100px;
+  height: 30px;
+  background-color: cyan;
+  border: 1px dotted red;
+  float:left;
+}
+
+.zad5 {
+  width: 800px;
+  border: 1px dotted green;
+  display: block;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.zad5 p {
+  display: inline-block;
+
+}

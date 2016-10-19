@@ -1,0 +1,62 @@
+p {
+  background: red;
+}
+
+p#inny {
+  background: blue;
+}
+
+.blog {
+  background: beige;
+}
+
+div.blog p {
+  background: pink;
+}
+
+div#rodzic p {
+  background: green;
+}
+
+div#other p {
+  background: brown;
+}
+
+div#rodzic p:first-child {
+  background: purple;
+}
+
+
+
+h1, h2, h3, h4, h5 {
+  background: green;
+}
+
+div.black, div.white {
+  background: grey;
+}
+
+div.important {
+  background: green;
+}
+
+div * {
+  background: blue;
+}
+
+
+[type="submit"] {
+  background: blue;
+}
+
+[type~="email"] {
+  background: green;
+}
+
+[class*="important"] {
+  background: red;
+}
+
+[class^="important"] {
+  background: pink;
+}

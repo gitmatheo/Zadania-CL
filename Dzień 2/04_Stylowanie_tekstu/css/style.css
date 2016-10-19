@@ -1,0 +1,16 @@
+@font-face {
+    font-family: Pacifico;
+    src: url(../fonts/Pacifico.woff);
+}
+
+body {
+  font-size: 40px;
+}
+
+p.fontSquirrel {
+  font-family: Pacifico;
+}
+
+p.googleFonts {
+  font-family: 'Raleway', sans-serif;
+}
