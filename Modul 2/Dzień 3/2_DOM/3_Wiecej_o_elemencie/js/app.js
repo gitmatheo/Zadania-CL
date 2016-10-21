@@ -11,25 +11,18 @@ console.log("################ ZADANIE 1 ##################");
 
 
 var newLinks = document.querySelectorAll('.ex1 a');
-var chrome = document.querySelectorAll('.ex1 * .chrome');
-var edge = document.querySelectorAll('.ex1 * .edge');
-var firefox = document.querySelectorAll('.ex1 * .firefox');
+var chrome = document.querySelectorAll('.ex1 .chrome');
+var edge = document.querySelectorAll('.ex1 .edge');
+var firefox = document.querySelectorAll('.ex1 .firefox');
 
-for (i=0; i < newLinks.length; i++) {
-  newLinks[i].setAttribute("href", "https://www.google.pl/chrome/browser/desktop/index.html");
-  newLinks[i].innerHTML = document.querySelectorAll('.ex1 * h3')[i].innerHTML;
-}
 
-for (i=0; i < chrome.length; i++) {
- chrome[i].style.width = "100px";
-}
 
-for (i=0; i < edge.length; i++) {
-  edge[i].style.backgroundImage = "url('assets/img/edge.png')";
-}
-for (i=0; i < firefox.length; i++) {
-  firefox[i].style.backgroundImage = "url('assets/img/firefox.png')";
-}
+  newLinks[0].setAttribute("href", "https://www.google.pl/chrome/browser/desktop/index.html");
+  newLinks[0].innerHTML = document.querySelectorAll('.ex1 * h3')[0].innerHTML;
+  chrome[0].style.width = "100px";
+  edge[0].style.backgroundImage = "url('assets/img/edge.png')";
+  firefox[0].style.backgroundImage = "url('assets/img/firefox.png')";
+
 
 
 // ################ ZADANIE 2 ##################
